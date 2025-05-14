@@ -2,117 +2,215 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Kiran Dhathri Boddepalli | Full Stack Java Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kiran Dhathri | Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Fira+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <div class="photo-container">
-        <!-- Use your actual image file name and extension, e.g., image.jpg -->
-        <img src="photo.jpg" alt="Kiran Dhathri Boddepalli" />
-      </div>
-      <div class="header-content">
-        <h1>Kiran Dhathri Boddepalli</h1>
-        <div class="subtitle">Full Stack Java Developer | Cincinnati, OH</div>
-        <div class="contact">
-          <span>Email: <a href="mailto:ikirandhathri@gmail.com">ikirandhathri@gmail.com</a></span>
-          <span>Phone: <a href="tel:+19134073921">+1 913-407-3921</a></span>
-        </div>
+  <nav class="navbar">
+    <div class="logo">Kiran</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <img class="avatar" src="photo.jpg" alt="Kiran's avatar" />
+      <div>
+        <h1>Hi, I'm <span class="accent">Kiran Dhathri Boddepalli</span></h1>
+        <div class="subtitle">Java Full Stack Developer</div>
+<div class="intro">
+  7+ years architecting resilient backends and APIs with Java, Spring Boot, React, and cloud-native technologies to deliver high-impact software.
+</div>
+
         <div class="links">
-          <a href="https://your-medium-link" target="_blank" rel="noopener noreferrer">Medium</a>
-          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <a href="mailto:ikirandhathri@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
+  <a href="https://github.com/ikirandhathri" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+  <a href="https://linkedin.com/in/kirandhathri" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  <a href="https://medium.com/@ikirandhathri" target="_blank"><i class="fab fa-medium"></i> Medium</a>
+  <a href="Kiran_resume.pdf" download target="_blank"><i class="fas fa-file-download"></i> Resume</a>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+  <h2>About Me</h2>
+  <div class="about-grid">
+    <div class="about-point">
+      <span class="about-icon">💡</span>
+      <div>
+        <span class="about-title">Problem Solver</span>
+        <span class="about-desc">I turn complex requirements into simple, maintainable, and scalable code.</span>
+      </div>
+    </div>
+    <div class="about-point">
+      <span class="about-icon">🔗</span>
+      <div>
+        <span class="about-title">Integration Expert</span>
+        <span class="about-desc">Skilled in building event-driven microservices and integrating distributed systems using Kafka, RabbitMQ, and REST APIs.</span>
+      </div>
+    </div>
+    <div class="about-point">
+      <span class="about-icon">🚀</span>
+      <div>
+        <span class="about-title">Cloud & DevOps Enthusiast</span>
+        <span class="about-desc">Experienced with Kubernetes, Docker, Terraform, and CI/CD automation for scalable deployments.</span>
+      </div>
+    </div>
+    <div class="about-point">
+      <span class="about-icon">🧑‍💻</span>
+      <div>
+        <span class="about-title">Full Stack Developer</span>
+        <span class="about-desc">Delivering robust backends and dynamic frontends with Java, Spring Boot, React, and Angular.</span>
+      </div>
+    </div>
+    <div class="about-point">
+      <span class="about-icon">🌱</span>
+      <div>
+        <span class="about-title">Lifelong Learner</span>
+        <span class="about-desc">Currently exploring AI integrations and advanced event-driven architectures.</span>
+      </div>
+    </div>
+    <div class="about-point">
+      <span class="about-icon">🤖</span>
+      <div>
+        <span class="about-title">Fun Fact</span>
+        <span class="about-desc">My downtime often involves diving into the fascinating world of cutting-edge tech and innovative gadgets.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="skills" class="section">
+    <h2>Skills & Tools</h2>
+    <div class="skills-grid">
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" /> Java</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" title="Spring Boot" /> Spring Boot</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" /> React.js</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" title="Docker" /> Docker</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" title="Kubernetes" /> Kubernetes</div>
+      <div>
+      <img src="aws.svg" alt="AWS" title="AWS" style="background:#fff; border-radius:6px; padding:2px;" />
+      AWS
+    </div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" /> Python</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git" /> Git</div>
+	<div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" title="Kubernetes" /> Kubernetes</div>
+  <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" title="Docker" /> Docker</div>
+  <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform" title="Terraform" /> Terraform</div>
+  <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" title="Jenkins" /> Jenkins</div>
+  <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab" title="GitLab" /> GitLab CI</div>
+
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+  <h2>Experience</h2><l>Recent</l>
+  <div class="exp-cards">
+    <!-- AT&T -->
+    <div class="exp-card">
+      <div class="exp-card-header">
+        <img src="att.svg" alt="AT&T" class="exp-logo" />
+        <div>
+          <h3>AT&T</h3>
+          <span class="exp-role">Full Stack Java Developer</span>
+          <span class="exp-date">Aug 2024 – Present</span>
         </div>
       </div>
-    </div>
-
-    <div class="section summary">
-      <h2>Summary</h2>
       <ul>
-        <li>Around 7 years of experience as a Full Stack Java/J2EE Developer with expertise in developing scalable, high-performance enterprise applications across multiple industries.</li>
-        <li>Deep understanding of the Spring Framework (Core, MVC, Boot, Cloud, Security) and skilled in applying J2EE design patterns (MVC, DAO, DTO, Factory) to create maintainable and extensible code.</li>
-        <li>Proficient in Java 8 features such as Streams API and Lambda Expressions, with a strong command over Object-Oriented Programming (OOP) principles and patterns.</li>
-        <li>Extensive experience in designing and developing Microservices with Spring Boot, integrating with ORM frameworks like Hibernate and Spring Data JPA, and building RESTful/SOAP APIs for seamless communication across applications.</li>
-        <li>Practical knowledge and hands-on experience with various AWS services including EC2, S3, RDS, Lambda, and CloudWatch. AWS Solutions Architect – Associate certified.</li>
-        <li>Proficient in infrastructure-as-code using Terraform, containerization using Docker, and orchestration with Kubernetes for managing scalable, resilient applications.</li>
-        <li>Skilled in working with both relational and NoSQL databases (including MSSQL, MySQL, PostgreSQL, MongoDB, Cassandra), and have experience working with Snowflake for large-scale data warehousing.</li>
-        <li>Extensive experience in Test-Driven Development (TDD) practices, ensuring that code is robust, maintainable, and of high quality through automated testing.</li>
-        <li>Hands-on experience with CI/CD pipeline development using Jenkins, GitLab, and Maven, as well as unit testing frameworks such as JUnit and Mockito to ensure code stability.</li>
-        <li>Proficient in front-end technologies including React.js, Angular, TypeScript, HTML5, CSS3, JavaScript, and Bootstrap to build dynamic, responsive user interfaces.</li>
-        <li>Experienced in developing high-performance backend services with Go and building event-driven architectures using message brokers like Kafka and RabbitMQ.</li>
-        <li>Skilled in designing and consuming RESTful and SOAP Web Services using technologies such as JAX-RS, JAX-B, and Spring REST to enable seamless application communication.</li>
-        <li>Adept at collaborating in Agile/Scrum teams, consistently delivering features on time and ensuring continuous improvement through iterative development and feedback.</li>
-        <li>Proficient in deploying and managing containerized applications using Kubernetes and OpenShift, ensuring efficient application orchestration, scalability, and automation.</li>
-        <li>Developed automated ETL pipelines using AWS Glue and PySpark to transform S3 data, integrated with Amazon Athena for serverless querying and real-time analytics, significantly improving data processing workflows.</li>
+        <li>Designed and developed scalable enterprise apps using Java 17 & Spring Boot.</li>
+        <li>Automated CI/CD with Jenkins & GitLab; containerized deployments on AWS Kubernetes.</li>
       </ul>
     </div>
-
-    <div class="section">
-      <h2>Experience</h2>
-      <div class="exp-title">
-        AT&amp;T, Dallas, TX <span class="exp-time">Aug 2024 – Present</span>
+    <!-- Dupont -->
+    <div class="exp-card">
+      <div class="exp-card-header">
+        <img src="DuPont.svg" alt="Dupont" class="exp-logo" />
+        <div>
+          <h3>DuPont</h3>
+          <span class="exp-role">Java Developer</span>
+          <span class="exp-date">Jan 2023 – Jul 2024</span>
+        </div>
       </div>
-      <div class="exp-role">Full Stack Java Developer</div>
       <ul>
-        <li>Led the design and development of scalable enterprise applications using Java 17 and Spring Boot, leveraging OpenAPI/Swagger specifications to ensure consistent, scalable communication across services.</li>
-        <li>Architected and implemented high-performance microservices with Spring Boot, adhering to SOLID principles to ensure maintainability and extensibility.</li>
-        <li>Built and integrated asynchronous communication systems using Apache Kafka, enabling event-driven architectures to improve real-time data streaming and system responsiveness.</li>
-        <li>Utilized Redis to optimize data caching strategies, reducing latency and improving application performance.</li>
-        <li>Implemented containerized microservices using Docker and orchestrated the deployment on Kubernetes clusters hosted on AWS.</li>
-        <li>Developed robust CI/CD pipelines with Jenkins and GitLab CI, automating build, testing, and deployment processes to accelerate release cycles.</li>
-        <li>Integrated centralized logging and monitoring using the ELK Stack (Elasticsearch, Logstash, Kibana), ensuring system observability and proactive issue resolution.</li>
-        <li>Used Ansible for automating configuration management and infrastructure provisioning, ensuring consistency across environments.</li>
-        <li>Designed and implemented dynamic, responsive front-end applications using React.js, HTML5, CSS3, to enhance user experience.</li>
-        <li>Ensured the scalability and maintainability of applications by applying microservices patterns and event-driven architecture.</li>
-      </ul>
-
-      <div class="exp-title">
-        Tata Consultancy Services <span class="exp-time">Oct 2021 – Dec 2022</span>
-      </div>
-      <div class="exp-role">Software Developer</div>
-      <ul>
-        <li>Played a key role in migrating legacy monolithic applications to Microservices architecture using Spring Boot and REST APIs, increasing scalability and maintainability.</li>
-        <li>Improved system performance by implementing second-level caching with Hibernate, significantly reducing database load and improving response times.</li>
-        <li>Utilized MySQL for database management and optimized queries, resulting in improved performance for large-scale applications.</li>
-        <li>Automated infrastructure provisioning and management using Terraform and integrated with Kubernetes for deployment on Azure Cloud, streamlining cloud operations.</li>
-        <li>Collaborated with cross-functional teams to implement unit and integration tests, ensuring code quality and robustness.</li>
-        <li>Migrated SOAP-based web services to RESTful APIs using Spring Boot, modernizing the application stack and improving developer productivity.</li>
-      </ul>
-
-      <div class="exp-title">
-        Amazon, Hyderabad <span class="exp-time">Jun 2019 – Aug 2021</span>
-      </div>
-      <div class="exp-role">Software Development Engineer</div>
-      <ul>
-        <li>Worked on developing and consuming Web Services such as SOAP and RESTful that serve as main source of information for many applications.</li>
-        <li>Designed, developed, and delivered scalable, highly available distributed systems and microservices architecture using Java, Spring Boot, and AWS cloud technologies.</li>
-        <li>Built responsive user interfaces with Angular, and TypeScript for frontend components and UI/UX design.</li>
-        <li>Built and optimized high-performance backend services and RESTful APIs, enabling seamless integration with Amazon’s e-commerce platforms.</li>
-        <li>Developed RESTful services using Spring Boot, JAX-RS and used Postman to test the RESTful services for HTTP requests such as GET, POST, PUT and DELETE.</li>
-        <li>Implemented event-driven architectures and message queues using SQS and Kafka for real-time data processing.</li>
-        <li>Developed robust unit testing frameworks with JUnit and integration testing in staging environments, ensuring reliability and performance.</li>
-        <li>Worked on Angular JS controllers and created functions to interact with the RESTful Web Services using AJAX.</li>
-        <li>Designed and deployed distributed caching mechanisms using Elastic Cache and DynamoDB, improving application responsiveness and scalability.</li>
-        <li>Collaborated with cross-functional teams to gather requirements, design solutions, and deliver features aligned with Amazon’s customer obsession.</li>
-        <li>Optimized database performance with Aurora and RDS, implementing indexing strategies and query tuning for large-scale data operations.</li>
-        <li>Automated CI/CD pipelines using AWS Code Pipeline and Jenkins, reducing deployment cycles and improving release velocity.</li>
-        <li>Designed and deployed scalable applications on AWS using CloudFormation, automating infrastructure provisioning and management for high-availability environments.</li>
-        <li>Monitored and resolved production issues using CloudWatch, ensuring high availability and fault tolerance.</li>
-        <li>Used Hibernate framework to automate the mapping between SQL database and Java Objects, also developed Stored Procedures.</li>
+        <li>Maintained microservices using Spring Boot and Kafka.</li>
+        <li>Integrated AWS S3 and Lambda for automated data processing workflows.</li>
+        <li>Collaborated with cross-functional teams to deliver new features in Agile sprints.</li>
       </ul>
     </div>
-
-    <div class="section">
-      <h2>Education</h2>
+    <!-- TCS -->
+    <div class="exp-card">
+      <div class="exp-card-header">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tata.svg" alt="Tata Consultancy Services" class="exp-logo" />
+        <div>
+          <h3>TCS</h3>
+          <span class="exp-role">Software Developer</span>
+          <span class="exp-date">Oct 2021 – Dec 2022</span>
+        </div>
+      </div>
       <ul>
-        <li>
-          Master of Science, Computer Science<br />
-          University of Dayton, Dayton, OH (Jan 2023 – Aug 2024)
-        </li>
+        <li>Migrated legacy monoliths to microservices with Spring Boot and REST APIs.</li>
+        <li>Optimized DB performance with Hibernate and MySQL.</li>
+        <li>Modernized SOAP services to RESTful APIs, improving developer productivity.</li>
       </ul>
     </div>
   </div>
+</section>
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <span class="edu-degree">M.S. in Computer Science</span>
+      <span class="edu-school">University of Dayton, Dayton, OH</span>
+    </div>
+    <div class ="edu-item">
+	 <span class =edu-degree">B.Tech in Electrical and Electronics Engineering</span>
+	 <span class="edu-school">JNTUH, Hyderabad, India</span>
+	</div>
+  </section>
+
+ <section class="section" id="contact">
+  <h2>Contact</h2>
+  <p>
+    Interested in hiring me or discussing a project?<br>
+    Reach out directly via any of the links below!
+  </p>
+  <div class="contact-links">
+    <a href="mailto:ikirandhathri@gmail.com" class="contact-link" title="Email">
+      <img src="email.png" alt="Email" class="contact-icon"> Email
+    </a>
+    <a href="https://www.linkedin.com/in/kirandhathri" target="_blank" class="contact-link" title="LinkedIn">
+      <img src="linkedin.png" alt="LinkedIn" class="contact-icon"> LinkedIn
+    </a>
+    <a href="https://medium.com/@ikirandhathri" target="_blank" class="contact-link" title="Medium">
+      <img src="medium.png" alt="Medium" class="contact-icon"> Medium
+    </a>
+  </div>
+  <p style="margin-top: 18px;">
+    Or just drop me a line if you want to chat about tech, ideas, or collaboration!
+  </p>
+</section>
+
+<!-- DARK MODE TOGGLE BUTTON -->
+<div class="darkmode-toggle-container">
+  <button id="darkmode-toggle" aria-label="Toggle dark mode">🌙 Dark Mode</button>
+</div>
+
+  <footer>
+    <div class="footer-content">
+      <span>© 2025 Kiran Dhathri Boddepalli</span>
+    </div>
+  </footer>
+  <script src="main.js"></script>
 </body>
 </html>

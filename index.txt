@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kiran Dhathri Boddepalli | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Fira+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Kiran</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <img class="avatar" src="https://undraw.co/api/illustrations/portfolio_btd8" alt="Kiran's avatar" />
+      <div>
+        <h1>Hi, I'm <span class="accent">Kiran Dhathri Boddepalli</span></h1>
+        <p class="subtitle">Full Stack Java Developer • Cincinnati, OH</p>
+        <p class="intro">I build robust backends, pixel-perfect frontends, and cloud-native solutions.<br>
+        <span class="highlight">7+ years</span> of crafting scalable, high-performance apps.</p>
+        <div class="links">
+          <a href="mailto:ikirandhathri@gmail.com" target="_blank">Email</a>
+          <a href="https://github.com/" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <ul class="about-list">
+      <li>💡 <strong>Problem solver:</strong> I turn complex requirements into simple, maintainable code.</li>
+      <li>🚀 <strong>Cloud enthusiast:</strong> AWS Certified, I love scaling with Kubernetes, Terraform, and Docker.</li>
+      <li>🎨 <strong>UI/UX advocate:</strong> I create intuitive, responsive interfaces with React and Angular.</li>
+      <li>🌱 <strong>Lifelong learner:</strong> Currently exploring AI integrations and event-driven microservices.</li>
+      <li>🎸 <strong>Fun fact:</strong> When not coding, you’ll find me playing guitar or hiking Ohio’s trails.</li>
+    </ul>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills & Tools</h2>
+    <div class="skills-grid">
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" /> Java</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" title="Spring Boot" /> Spring Boot</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" /> React.js</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" title="Docker" /> Docker</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" title="Kubernetes" /> Kubernetes</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg" alt="AWS" title="AWS" /> AWS</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" /> Python</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git" /> Git</div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="timeline-date">Aug 2024 – Present</span>
+        <span class="timeline-role">Full Stack Java Developer</span>
+        <span class="timeline-company">AT&T, Dallas, TX</span>
+        <ul>
+          <li>Led scalable microservice development with Spring Boot & Java 17.</li>
+          <li>Architected event-driven systems with Kafka, improving real-time data flow.</li>
+          <li>Automated CI/CD with Jenkins & GitLab, reducing deployment time by 40%.</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-date">Oct 2021 – Dec 2022</span>
+        <span class="timeline-role">Software Developer</span>
+        <span class="timeline-company">Tata Consultancy Services</span>
+        <ul>
+          <li>Migrated legacy monoliths to microservices, boosting scalability.</li>
+          <li>Optimized DB performance with Hibernate & MySQL.</li>
+          <li>Deployed apps on Azure Kubernetes via Terraform automation.</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-date">Jun 2019 – Aug 2021</span>
+        <span class="timeline-role">Software Development Engineer</span>
+        <span class="timeline-company">Amazon, Hyderabad</span>
+        <ul>
+          <li>Built distributed systems & REST APIs on AWS cloud.</li>
+          <li>Implemented caching, event-driven processing, and CI/CD automation.</li>
+          <li>Collaborated on high-impact e-commerce features.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <span class="edu-degree">M.S. in Computer Science</span>
+      <span class="edu-school">University of Dayton, Dayton, OH</span>
+      <span class="edu-date">Jan 2023 – Aug 2024</span>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Let’s build something great together! Reach me at <a href="mailto:ikirandhathri@gmail.com">ikirandhathri@gmail.com</a> or connect on <a href="https://linkedin.com/" target="_blank">LinkedIn</a>.</p>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+      <span id="form-status"></span>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <span>© 2025 Kiran Dhathri Boddepalli</span>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
